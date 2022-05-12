@@ -9,7 +9,7 @@ body * {
     box-sizing: border-box;
 }
 
-.main_login {
+.main_cadastro {
     width: 100vw;
     height: 100vh;
     background-color: #100f13;
@@ -18,34 +18,8 @@ body * {
     align-items: center;
 }
 
-.left_login {
-    width: 50vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.left_login > h1 {
-    color: #4feea4;
-    font-size: 3vw;
-}
-
-.left_image {
-    width: 35vw;
-}
-
-.right_login {
-    width: 50vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.card_login {
-    width: 60%;
+.card_cadastro {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,7 +30,7 @@ body * {
     box-shadow: 0px 10px 40px #00000056;
 }
 
-.card_login > h1 {
+.card_cadastro > h1 {
     color: #2fd487;
     font-weight: 800;
     letter-spacing: 2px;
@@ -94,7 +68,7 @@ body * {
     color: #424244
 }
 
-.buttons {
+.button {
     width: 100%;
     margin-top: 10px;
     display: flex;
@@ -102,7 +76,7 @@ body * {
     align-items: center;
 }
 
-.btn_login, .btn_cadastro {
+.btn_cadastro {
     padding: 10px;
     border: none;
     border-radius: 8px;
@@ -116,37 +90,8 @@ body * {
     box-shadow: 0px 10px 40px -12px #00ff8052;
 }
 
-.btn_login:hover, .btn_cadastro:hover {
+.btn_cadastro:hover {
     background: #100f13;
     color: white;
     transition: background 1s;
-}
-
-@media only screen and (max-width: 950px) {
-    .card_login {
-        width: 85%;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .main_login {
-        flex-direction: column;
-    }
-    .left_login > h1 {
-        display: none;
-    }
-    .left_login {
-        width: 100%;
-        height: auto;
-    }
-    .right_login {
-        width: 100%;
-        height: auto;
-    }
-    .left_image {
-        width: 50vw;
-    }
-    .card_login {
-        width: 90%;
-    }
 }
