@@ -14,23 +14,23 @@
             <img class="left_image" src="/images/cat-astronaut-animate.svg" alt="Gato Astronauta">
         </div>
         <div class="right_login">
-            <div class="card_login">
+            <form id="form_login">
                 <h1>LOGIN</h1>
                 <div class="textfield">
                     <label for="usuario">Usuário</label>
-                    <input type="text" name="usuario" placeholder="Nome do usuário">
+                    <input type="text" name="usuario" id="usuario" placeholder="Nome do usuário">
                 </div>
                 <div class="textfield">
                     <label for="senha">Senha</label>
-                    <input type="password" name="senha" placeholder="Senha">
+                    <input type="password" name="senha" id="senha" placeholder="Senha">
                 </div>
                 <div class="buttons">
-                    <button class="btn_login">Login</button>
-                    <a href="/html/cadastro.html"><button class="btn_cadastro">Cadastre-se</button></a>
+                    <input type="submit" class="btn_login">
+                    <button id="btn_cadastro">Cadastre-se</button>
                 </div>
-            </div>
+            </form>
         </div>
     </div>
-    <script src="/js/index.js"></script>t
+    <script src="/js/index.js"></script>
 </body>
 </html>

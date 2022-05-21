@@ -10,25 +10,26 @@
 <body>
     <div class="main_cadastro">
         <div class="cadastro">
-            <form class="card_cadastro" id="form_cadastro">
+            <form id="form_cadastro">
                 <h1>CRIAR CONTA</h1>
                 <div class="textfield">
                     <label for="usuario">Usuário</label>
-                    <input type="text" name="usuario" placeholder="Nome do usuário">
+                    <input type="text" name="usuario" id="usuario" placeholder="Nome do usuário" required>
                 </div>
                 <div class="textfield">
                     <label for="senha">Senha</label>
-                    <input type="password" name="senha" placeholder="Senha">
+                    <input type="password" name="senha" id="senha" placeholder="Senha" required>
                 </div>
                 <div class="textfield">
                     <label for="confirme_senha">Confirme a sua senha</label>
-                    <input type="password" name="confirme_senha" placeholder="Digite novamente">
+                    <input type="password" name="confirme_senha" id="confirme_senha" placeholder="Digite novamente" required>
                 </div>
                 <div class="button">
-                <a href="/index.html"><button class="btn_cadastro">Criar conta</button></a>
+                <input type="submit" id="btn_cadastro">
                 </div>
             </form>
         </div>
-    </div>  
+    </div> 
+    <script src="/js/cadastro.js"></script>
 </body>
 </html>

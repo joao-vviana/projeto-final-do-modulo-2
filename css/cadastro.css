@@ -18,7 +18,7 @@ body * {
     align-items: center;
 }
 
-.card_cadastro {
+#form_cadastro {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -30,7 +30,7 @@ body * {
     box-shadow: 0px 10px 40px #00000056;
 }
 
-.card_cadastro > h1 {
+#form_cadastro > h1 {
     color: #2fd487;
     font-weight: 800;
     letter-spacing: 2px;
@@ -76,7 +76,7 @@ body * {
     align-items: center;
 }
 
-.btn_cadastro {
+#btn_cadastro {
     padding: 10px;
     border: none;
     border-radius: 8px;
@@ -90,7 +90,7 @@ body * {
     box-shadow: 0px 10px 40px -12px #00ff8052;
 }
 
-.btn_cadastro:hover {
+#btn_cadastro:hover {
     background: #100f13;
     color: white;
     transition: background 1s;

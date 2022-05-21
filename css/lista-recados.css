@@ -31,18 +31,6 @@ header > h1 {
     margin-bottom: 10;
 }
 
-.form_lista {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 30px 35px;
-    background: #35313f;
-    border-radius: 20px;
-    box-shadow: 0px 10px 40px #00000056;
-}
-
 .card_lista > h1 {
     color: #2fd487;
     font-weight: 800;
@@ -87,7 +75,7 @@ header > h1 {
     align-items: center;
 }
 
-.btn_lista {
+#btn_lista {
     padding: 5px;
     border: none;
     border-radius: 0px 10px 10px 0px;
@@ -100,12 +88,48 @@ header > h1 {
     box-shadow: 0px 10px 40px -12px #00ff8052;
 }
 
-.btn_lista:hover {
+#btn_lista:hover {
     background: #100f13;
     color: white;
     transition: background 1s;
 }
 
-.table > thead, h1 {
+#div_lista {
+    display: flex;
+    flex-direction: column;
+    background: #35313f;
+    box-shadow: 0px 10px 40px #00000056;
+    padding: 10px;
+    height: 100vh;
+}
+
+.table > thead, tbody, h1 {
+    color: #2fd487;
+}
+
+#tbody > tr {
+    text-align: center;
+}
+
+#thead > tr {
+    text-align: center;
+}
+
+.btn_login {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    background: #2fd487;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+.btn_login:hover {
+    background: #100f13;
     color: white;
+    transition: background 1s;
 }
